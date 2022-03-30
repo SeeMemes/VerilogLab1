@@ -22,3 +22,4 @@ source mux_test.tcl
 close_sim
 launch_simulation
 source mux_test.tcl
+close_sim

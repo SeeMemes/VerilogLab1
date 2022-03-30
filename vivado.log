@@ -492,3 +492,7 @@ $stop called at time : 650 ns : File "C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_test_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 836.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 30 17:22:57 2022...
