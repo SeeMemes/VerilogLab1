@@ -1,13 +1,14 @@
 #-----------------------------------------------------------
-# Webtalk v2018.2 (64-bit)
-# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
-# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Mar 29 04:10:24 2022
-# Process ID: 18528
-# Current directory: C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.sim/sim_1/behav/xsim/xsim.dir/mux_test_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.sim/sim_1/behav/xsim\webtalk.jou
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 30 17:07:12 2022
+# Process ID: 7600
+# Current directory: C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim/xsim.dir/mux_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.sim/sim_1/behav/xsim/xsim.dir/mux_test_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Tue Mar 29 04:10:25 2022...
+source C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim/xsim.dir/mux_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Elite/Desktop/1/VerilogLab1/Lab1.sim/sim_1/behav/xsim/xsim.dir/mux_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar 30 17:07:17 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 30 17:07:17 2022...

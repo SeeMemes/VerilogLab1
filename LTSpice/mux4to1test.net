@@ -1,0 +1,41 @@
+* C:\Users\Elite\Desktop\1\VerilogLab1\LTSpice\mux4to1test.asc
+V1 D 0 PULSE(0 1 0 5p 5p 4n 8n)
+V2 C 0 PULSE(0 1 0 5p 5p 4n 8n)
+V3 B 0 PULSE(0 1 0 5p 5p 4n 8n)
+V4 A 0 PULSE(0 1 0 5p 5p 4n 8n)
+V5 S1 0 PULSE(0 1 8n 5p 5p 8n 16n)
+V6 S2 0 PULSE(0 1 8n 5p 5p 16n 32n)
+V7 VDD 0 1
+R1 N001 0 100k
+C1 N001 0 100f
+XX1 N001 A B C D VDD S2 S1 mux4to1
+
+* block symbol definitions
+.subckt mux4to1 Y A B C D VDD S2 S1
+XX11 S1 S1 N004 VDD nor
+XX13 S1 A N001 VDD nor
+XX14 B N004 N003 VDD nor
+XX19 S1 C N008 VDD nor
+XX20 D N004 N010 VDD nor
+XX1 N008 N010 N009 VDD nor
+XX2 N001 N003 N002 VDD nor
+XX3 N002 S2 N005 VDD nor
+XX4 N007 N009 N006 VDD nor
+XX5 S2 S2 N007 VDD nor
+XX6 N005 N006 Y VDD nor
+.ends mux4to1
+
+.subckt nor A B Y VDD
+M2 Y B 0 0 NMOS l=90n w=200n
+M4 Y A 0 0 NMOS l=90n w=200n
+M1 VDD A N001 VDD PMOS l=90n w=400n
+M3 N001 B Y VDD PMOS l=90n w=400n
+.ends nor
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Elite\Documents\LTspiceXVII\lib\cmp\standard.mos
+.include 90nm_bulk.txt
+.tran 0 72n 0 1p
+.backanno
+.end
