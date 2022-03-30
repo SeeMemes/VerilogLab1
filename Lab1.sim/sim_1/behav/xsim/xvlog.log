@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.srcs/sim_1/new/mux1to4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux1to4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Desktop/Verilog_Labs/Lab1/Lab1.srcs/sim_1/new/mux_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_test
